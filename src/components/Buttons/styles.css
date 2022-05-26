@@ -1,0 +1,27 @@
+.button-succ{
+    background: green;
+    font-size: 20px;
+    border-radius: 5px;
+    color: azure;
+    padding: 3px;
+    border: 1px solid green;
+}
+
+.button-succ:active{
+    background:  black;
+}
+
+
+.button-negative {
+    background: red;
+    border: 1px solid red;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+}
+
+.button-negative:active{
+    background:  black;
+    color: white;
+}

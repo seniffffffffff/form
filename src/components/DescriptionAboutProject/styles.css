@@ -1,0 +1,17 @@
+.description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 33%;
+}
+
+.info-text {
+    box-sizing: border-box;
+    margin: 10px;
+    resize: none;
+    border-radius: 5px;
+    width: 98%;
+    outline: none;
+    font-size: 1.4em;
+}

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#4b3838, #212335);
+}
+
+.anketa h1 {
+  text-align: center;
+}
+
+.anketa{
+  background: rgb(128, 105,129,0.6);
+  width: 900px;
+  height: 900px;
+  border-radius: 2%;
+  margin: 20px 0 0 0;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.information-about-me {
+  width: 50%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.technologies {
+  width: 50%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.buttons{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons .button-succ{
+  margin: 0 40px 0 0;
+}
+
+
